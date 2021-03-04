@@ -1,0 +1,20 @@
+{
+  "name": "niubg_blog",
+  "version": "1.0.0",
+  "description": "个人博客",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/niubg"
+  },
+  "author": "niubg",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "vuepress-theme-hope": "^1.11.1"
+  }
+}
