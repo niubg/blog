@@ -4,12 +4,7 @@ source /etc/profile
 echo '进入博客目录'
 cd /home/blog/view
 ## 拉取最新代码
-echo '开始拉取代码'
-if [ ! -d "blog" ]; then
-  git clone git://github.com/niubg/blog.git
-fi
-
-cd blog
+echo '开始拉取最新代码'
 git pull
 
 echo '代码拉取完成！'

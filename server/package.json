@@ -14,6 +14,7 @@
     "webpack-cli": "^4.5.0"
   },
   "dependencies": {
+    "gitee-webhook-middleware": "^1.1.3",
     "github-webhook-handler": "^1.0.0"
   }
 }
