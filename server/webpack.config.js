@@ -1,9 +1,9 @@
 const path = require('path');
 
 module.exports = {
-  entry: './index.js',
+  entry: './server-blog.js',
   output: {
-    filename: 'server.js',
+    filename: 'server-blog.js',
     path: path.resolve(__dirname, 'dist'),
   },
   target: 'node',

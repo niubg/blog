@@ -30,10 +30,13 @@ handler.on('push', function (event) {
   console.log('监听推送事件',
     event.payload.repository.name,
     event.payload.ref, JSON.stringify(event));
-//   var shpath = './blog-start.sh';
-//   RunCmd('sh', [shpath], function(result) {
-//       console.log(result);
-//   })
+    if (event.payload.ref == "refs/heads/master") {
+        console.log("进入master推送执行")
+        var shpath = './blog-start.sh';
+        RunCmd('sh', [shpath], function(result) {
+            console.log("脚本执行结果",result);
+        })
+    }  
 })
 
 handler.on('issues', function (event) {
