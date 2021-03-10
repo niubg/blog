@@ -29,7 +29,7 @@ handler.on('error', function (err) {
 handler.on('push', function (event) {
   console.log('监听推送事件',
     event.payload.repository.name,
-    event.payload.ref);
+    event.payload.ref, JSON.stringify(event));
 //   var shpath = './blog-start.sh';
 //   RunCmd('sh', [shpath], function(result) {
 //       console.log(result);
