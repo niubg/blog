@@ -3,9 +3,9 @@ blog: true
 home: true
 title: 主页
 icon: home
-heroImage: /logo.svg
-bgImage: /logo.svg
-heroText: vuepress-theme-hope
+heroImage: /assets/icon/logo.svg
+bgImage: /assets/icon/banner.svg
+# heroText: vuepress-theme-hope
 tagline: 一个具有强大功能的 vuepress 主题✨
 action:
   - text: 快速上手 💡

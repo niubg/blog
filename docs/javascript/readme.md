@@ -2,7 +2,7 @@
 title: 项目指令
 icon: program
 category: basic
-tags: 测试
+
 ---
 
 ## 安装项目依赖
