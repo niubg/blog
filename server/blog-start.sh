@@ -4,8 +4,15 @@ source /etc/profile
 echo '进入博客目录'
 cd /home/blog/view
 ## 拉取最新代码
-echo '开始拉去最新代码'
+echo '开始拉取代码'
+if [ ! -d "blog" ]; then
+  git clone git://github.com/niubg/blog.git
+fi
+
+cd blog
 git pull
+
+echo '代码拉取完成！'
 
 ## 因为服务器内存低，无法使用服务器编译，故取消编译命令
 #echo '进入项目目录'
