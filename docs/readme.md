@@ -9,7 +9,7 @@ bgImage: /assets/icon/banner.svg
 tagline: 一个具有强大功能的 vuepress 主题✨
 action:
   - text: 快速上手 💡
-    link: /guide/
+    link: /guide/ 
     type: primary
 
   - text: 配置 🛠
